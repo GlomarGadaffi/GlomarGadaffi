@@ -7,7 +7,6 @@ scanner plumbing around it — ESP32, LoRa, SIP, Meshtastic. And a cat, allegedl
 ### Telephony
 - [pocket-dial](https://github.com/GlomarGadaffi/pocket-dial) — C++17 SIP registrar + PBX for ESP32-S3 and desktop. Point any SIP phone at it and start calling.
 - [pocket-dial-handset](https://github.com/GlomarGadaffi/pocket-dial-handset) — ESP32-S3 SIP handset: push-to-talk G.711 over Wi-Fi, registers to pocket-dial.
-- [pocket-dial-voicemail](https://github.com/GlomarGadaffi/pocket-dial-voicemail) — store-and-forward voicemail for pocket-dial.
 - [resiprocate](https://github.com/GlomarGadaffi/resiprocate) — vendored reSIProcate: SIP / ICE / TURN / STUN / RTP stack.
 
 ### Wi-Fi / BLE
