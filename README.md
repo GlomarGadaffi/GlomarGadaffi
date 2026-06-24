@@ -3,8 +3,6 @@
 Small radios, mostly. Embedded RF and wireless security, plus the telephony, mesh, and
 scanner plumbing around it — ESP32, LoRa, SIP, Meshtastic. And a cat, allegedly.
 
-Most of these are tools I actually run. Where something is a vendored upstream or a
-synthetic demo, the description says so. No codenames, no mystery — here's what's here.
 
 ### Telephony
 - [pocket-dial](https://github.com/GlomarGadaffi/pocket-dial) — C++17 SIP registrar + PBX for ESP32-S3 and desktop. Point any SIP phone at it and start calling.
