@@ -31,6 +31,9 @@ scanner plumbing around it. ESP32, LoRa, SIP, Meshtastic. And a cat, allegedly.
 - [reticulum](https://github.com/GlomarGadaffi/reticulum) · vendored Reticulum: cryptography-based mesh networking over LoRa, packet radio, serial, TCP.
 - [rfparty](https://github.com/GlomarGadaffi/rfparty) · vendored rfparty: wireless situational-awareness dashboard for BLE/Wi-Fi telemetry.
 
+### Mobile hotspot
+- [orbic-toolkit](https://github.com/GlomarGadaffi/orbic-toolkit) · universal root-access & payload installer for the Orbic RC400L ARMv7 hotspot. Exploits SetRemoteAccessCfg, pushes any ARM binary as a managed busybox init service. Network or USB path.
+
 ### Networking
 - [ESP32_AdBlocker_Reborn](https://github.com/GlomarGadaffi/ESP32_AdBlocker_Reborn) · native ESP-IDF DNS sinkhole for ESP32-S3 + W5500: full OISD blocklist in PSRAM, SD instant-boot, and an L2 fast-path that answers blocked queries in ~1.8 ms without touching lwIP.
 
