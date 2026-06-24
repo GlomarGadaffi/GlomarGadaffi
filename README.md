@@ -31,6 +31,9 @@ scanner plumbing around it. ESP32, LoRa, SIP, Meshtastic. And a cat, allegedly.
 - [reticulum](https://github.com/GlomarGadaffi/reticulum) · vendored Reticulum: cryptography-based mesh networking over LoRa, packet radio, serial, TCP.
 - [rfparty](https://github.com/GlomarGadaffi/rfparty) · vendored rfparty: wireless situational-awareness dashboard for BLE/Wi-Fi telemetry.
 
+### Networking
+- [ESP32_AdBlocker_Reborn](https://github.com/GlomarGadaffi/ESP32_AdBlocker_Reborn) · native ESP-IDF DNS sinkhole for ESP32-S3 + W5500: full OISD blocklist in PSRAM, SD instant-boot, and an L2 fast-path that answers blocked queries in ~1.8 ms without touching lwIP.
+
 ### Comms / crypto
 - [tor-voice](https://github.com/GlomarGadaffi/tor-voice) · encrypted voice over Tor: in-process Arti onion service + Opus + Noise, no daemons.
 - [glossh](https://github.com/GlomarGadaffi/glossh) · minimal SSH 2.0 server for ESP-IDF on PSA Crypto (curve25519 / aes256-gcm / ecdsa-p256).
